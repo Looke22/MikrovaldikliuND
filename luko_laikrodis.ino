@@ -11,7 +11,7 @@ LiquidCrystal_I2C LCD = LiquidCrystal_I2C(0x27, 16, 2);
 #define NTP_SERVER     "pool.ntp.org" // Network Time Protocol Server
 // Time offset. Vilnius is typically in UTC+2 so we have to add 2 hours here
 #define UTC_OFFSET     7200 // This is in seconds, so 1 Hour offset would be 3600 seconds.
-#define UTC_OFFSET_DST 3600 // Daylight Saving Time. Since Lithuania is currently in DST, set this to 3600
+#define UTC_OFFSET_DST 3600 // Daylight Saving Time. Since Lithuania is currently (Summer 2024) in DST, set this to 3600
 
 // Additional controls
 #define SET_ALARM_PIN 15 // Pin for the "Set Alarm" menu
