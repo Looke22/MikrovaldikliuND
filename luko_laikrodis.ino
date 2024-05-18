@@ -1,6 +1,4 @@
-// Learn about the ESP32 WiFi simulation in
-// https://docs.wokwi.com/guides/esp32-wifi
-
+// ESP32 Simulation in Wokwi.com simulator
 #include <WiFi.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
